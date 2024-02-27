@@ -20,7 +20,34 @@ Cara Install Cisco Packet Tracer di Manjaro/Arch Linux
    ```
    makepkg
    ```
-8. Install paket dengan cara :
+   NOTE :
+   Apabila setelah langkah 7 muncul error
+   
+   ==> Making package: packettracer 8.2.1-1 (Sel 27 Feb 2024 09:57:02)
+   
+   ==> Checking runtime dependencies...
+   
+   ==> Missing dependencies:
+
+     -> java-runtime>=1.7.0
+
+     -> qt5-networkauth
+
+     -> qt5-websockets
+
+     -> qt5-script
+
+   ==> Checking buildtime dependencies...
+
+   ==> ERROR: Could not resolve all dependencies.
+   
+   Selesaikan dengan menginstall dependencies yang dibutuhkan dengan cara :
+   ```
+   sudo pacman -S jre8-openjdk qt5-networkauth qt5-websockets qt5-script
+   ```
+
+   
+9. Install paket dengan cara :
    ```
    makepkg -i
    ```
@@ -28,4 +55,4 @@ Cara Install Cisco Packet Tracer di Manjaro/Arch Linux
    ```
    sudo pacman -U packettracer.pkg.tar.xz
    ```
-9. Selesai
+10. Selesai

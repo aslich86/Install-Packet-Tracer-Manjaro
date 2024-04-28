@@ -1,4 +1,7 @@
-# Tutorial Install Packet Tracer di Manjaro / Arch Linux
+# Tutorial Install Packet Tracer di Manjaro / Arch Linux**
+UPDATE :
+Perhatikan sha512sums di Cisco Packet Tracer yang baru (8.2.2) tapi saya malas update haha**
+
 Cara Install Cisco Packet Tracer di Manjaro/Arch Linux
 --
 1. Download file yang saya lampirkan di repository ini (packettracer.tar.gz) 
